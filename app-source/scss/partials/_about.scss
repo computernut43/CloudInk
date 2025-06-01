@@ -1,0 +1,74 @@
+
+//note(dgmid): common / light theme
+
+body {
+	
+	text-align: center;
+	padding: 0;
+	
+	main {
+		
+		padding: 10px 20px 0;
+		height: 270px;
+		
+		figure {
+			
+			padding-bottom: 10px;
+			
+			img {
+				
+				-webkit-user-drag: none;
+				-webkit-app-region: no-drag;
+			}
+		}
+		
+		h1 {
+			
+			font-size: 15px;
+			margin-bottom: 20px;
+			color: var(--text);
+			font-weight: 700;
+		}
+		
+		p {
+			
+			font-size: 13px;
+			font-weight: 400;
+			width: 160px;
+			margin: 0 auto 15px;
+			color: var(--text);
+		}
+		
+		dl {
+			
+			font-size: 11px;
+			line-height: 14px;
+			margin-bottom: 15px;
+			
+			dt, dd {
+				
+				display: inline;
+				color: var(--text);
+			}
+			
+			dt {
+				
+				padding-right: 5px;
+			}
+			
+			dd::after {
+					
+				display: block;
+				content: '';
+				white-space: pre-line;
+			}
+		}
+		
+		button.ui-button {
+			
+			padding: 2px 12px;
+			font-size: 11px;
+			border-radius: 3px;
+		}
+	}
+}

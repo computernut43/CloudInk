@@ -1,0 +1,36 @@
+{
+  "preview": {
+    "new": "New",
+    "edit": "Edit",
+    "favorite": "Favorite",
+    "delete": "Delete",
+    "export": "Export",
+    "print": "Print",
+    "search": "Search",
+    "categories": "Categories",
+    "prefercences": "Preferences"
+  },
+  "format": {
+    "heading": "Heading",
+    "bold": "Bold",
+    "italic": "Italic",
+    "ul": "List",
+    "check": "Checkbox List",
+    "link": "Link",
+    "image": "Image",
+    "code": "Code",
+    "table": "Table"
+  },
+  "edit": {
+    "preview": "Preview",
+    "save": "Save"
+  },
+  "prefs": {
+    "textsize": "Text size",
+    "theme": "Theme",
+    "os": "OS Default",
+    "light": "Light",
+    "dark": "Dark",
+    "close": "Close"
+  }
+}

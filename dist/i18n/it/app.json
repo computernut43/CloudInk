@@ -1,0 +1,95 @@
+{
+  "titlebar": {
+    "update": "Aggiornamento disponibile"
+  },
+  "toolbar": {
+    "new": "Nuova nota (Cmd-N)",
+    "delete": "Elimina la nota selezionata (Cmd-D)",
+    "heading": "Intestazione",
+    "bold": "Grassetto",
+    "italic": "Corsivo",
+    "strikethrough": "Barrato",
+    "ul": "Lista non ordinata",
+    "ol": "Lista ordinata",
+    "checklist": "Elenco di controllo (Shift-Cmd-Alt-L)",
+    "link": "Crea collegamento  (Cmd-K)",
+    "image": "Inserisci immagine",
+    "code": "Codice",
+    "quote": "Citazione",
+    "table": "Inserisci tabella",
+    "hr": "Inserisci linea orizzontale"
+  },
+  "dialog": {
+    "error": {
+      "server": {
+        "title": "Errore del server",
+        "text": "si è verificato un errore"
+      },
+      "json": {
+        "title": "Errore di analisi JSON",
+        "text": "Si è verificato un errore durante l’analisi delle note"
+      },
+      "message": {
+        "400": "Richiesta sbagliata",
+        "401": "Non autorizzato",
+        "403": "Proibito",
+        "404": "Non trovato",
+        "500": "Errore interno del server",
+        "501": "Non implementato",
+        "502": "Errore di connessione",
+        "503": "Servizio non disponibile",
+        "504": "Gateway Time-out",
+        "default": "Non specificato"
+      }
+    },
+    "message": {
+      "import": "È possibile importare i seguenti formati di file: .md, .txt"
+    },
+    "button": {
+      "import": "Importare file",
+      "export": "Esporta nota",
+      "savechanges": "Salva",
+      "cancel": "Annulla",
+      "delete": "Elimina nota"
+    },
+    "format": {
+      "html": "html",
+      "md": "markdown",
+      "txt": "testo"
+    },
+    "save": {
+      "title": "Hai apportato modifiche a questa nota",
+      "text": "Vuoi salvare?"
+    },
+    "delete": {
+      "title": "Sei sicuro di voler eliminare questa nota?",
+      "text": "Questa operazione non è reversibile."
+    }
+  },
+  "sidebar": {
+    "notext": "Nessun testo aggiuntivo",
+    "new": "Nuova nota",
+    "search": "Cerca"
+  },
+  "categories": {
+    "title": "Categorie",
+    "all": "Tutte le note",
+    "none": "Non categorizzato"
+  },
+  "notification": {
+    "import": {
+      "text": "Il file {{filename}} è stato importato"
+    },
+    "export": {
+      "text": "La nota {{title}} è stato esportato come {{filetype}}"
+    }
+  },
+  "main": {
+    "title": "titolo",
+    "description": "descrizione",
+    "button": {
+      "edit": "Modifica nota",
+      "save": "Salva nota"
+    }
+  }
+}

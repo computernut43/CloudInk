@@ -1,0 +1,19 @@
+{
+  "speech": {
+    "speech": "Voce",
+    "start": "Inizia riproduzione",
+    "stop": "Interrompi riproduzione"
+  },
+  "paragraph": "Stili paragrafo",
+  "entities": {
+    "entities": "Codifica / decodifica caratteri",
+    "encode": "Codifica",
+    "decode": "Decodifica"
+  },
+  "transformations": {
+    "transformations": "Transformazioni",
+    "upper": "Scrivi in lettere maiuscole",
+    "lower": "Scrivi in lettere minuscole",
+    "caps": "Iniziali maiuscole"
+  }
+}

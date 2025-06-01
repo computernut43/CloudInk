@@ -1,0 +1,8 @@
+{
+  "open": "Ouvrir dans Nextcloud",
+  "categories": {
+    "all": "Toutes les notes",
+    "favorite": "Favoris",
+    "none": "Sans catégorie"
+  }
+}

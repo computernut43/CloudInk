@@ -1,0 +1,131 @@
+
+:root {
+	
+	// common
+	
+	--text:					#454545;
+	--text-light:			rgba(69,69,69,.6);
+	--background:			#ffffff;
+	--editor:				rgba(255,255,255,.8);
+	--main:					#ffffff;
+	--app-color-focus:		rgba(0,0,0,.1);
+	--dividers:				rgba(0,0,0,.15);
+	--header-border:		#dcdcdc;
+	
+	--icons-enabled:		rgba(0,0,0,.55);
+	--icons-disabled:		rgba(0,0,0,.3);
+	--icons-active:			rgba(0,0,0,.72);
+	
+	--accent:				#3478f6;
+	--accent-light:			#3279FF;
+	--accent-dark:			#004EE1;
+	
+	// toolbar
+	
+	--toolbar-hover:		rgba(0,0,0,.05);
+	--toolbar-active:		rgba(0,0,0,.1);
+	--toolbar-border:		rgba(69,69,69,.5);
+	
+	// modal
+	
+	--window:				#ededed;
+	--input-color:			#000000;
+	--input-border:			#cccccc;
+	--input-background:		#ffffff;
+	--select:				#ffffff;
+	--select-border:		#b2b2b2;
+	
+	// buttons
+	
+	
+	--button:				#ffffff;
+	--button-color:			rgba(0,0,0,.85);
+	--button-border:		#c0c0c0;	
+	
+	// note
+	
+	--code:					#ebebeb;
+	--code-color:			#777777;
+	--hr:					#ebebeb;
+	--mark:					#000000;
+	--table-border:			#dddddd;
+	--table-head:			#ffffff;
+	--table-stripe:			rgba(69,69,69,.03);
+	
+	// editor
+	
+	--code-red-lt:			#fb434a;
+	--code-red-dk:			#af2e33;
+	--code-orange-lt:		#ffa657;
+	--code-orange-dk:		#a85710;
+	--code-yellow-lt:		#fecb57;
+	--code-yellow-dk:		#b18d3c;
+	--code-aqua-lt:			#50e3c2;
+	--code-aqua-dk:			#379e87;
+	--code-green-lt:		#18bf64;
+	--code-green-dk:		#108545;
+	--code-khaki-lt:		#63a35c;
+	--code-khaki-dk:		#457140;
+	--code-cyan-lt:			#3d9fc7;
+	--code-cyan-dk:			#2a6e8a;
+	--code-blue-lt:			#007cff;
+	--code-blue-dk:			#0056b2;
+	--code-indigo-lt:		#0058b3;
+	--code-indigo-dk:		#003d7c;
+	--code-purple-lt:		#9013fe;
+	--code-purple-dk:		#640db1;
+	--code-pink-lt:			#ff42f6;
+	--code-pink-dk:			#b22eab;
+	--code-grey-lt:			#acbbd0;
+	--code-grey-dk:			#788291;
+}
+
+
+[data-theme^="dark"] {
+	
+	// common
+	
+	--text:					#dcdcdc;
+	--text-light:			rgba(255,255,255,.5);
+	--background:			#1d1d1d;
+	--editor:				rgba(0,0,0,.15);
+	--main:					rgba(30,30,30,.80);
+	--app-color-focus:		rgba(255,255,255,.1);
+	--dividers:				rgba(255,255,255,.125);
+	--header-border:		rgba(0,0,0,.5);
+	
+	--icons-enabled:		rgba(255,255,255,.6);
+	--icons-disabled:		rgba(255,255,255,.15);
+	--icons-active:			rgba(255,255,255,1);
+	
+	// toolbar
+	
+	--toolbar-hover:		rgba(255,255,255,.06);
+	--toolbar-active:		rgba(255,255,255,.12);
+	--toolbar-border:		rgba(255,255,255,.3);
+	
+	// modal
+	
+	--window:				#343434;
+	--input-color:			rgba(255,255,255,.75);
+	--input-border:			rgba(255,255,255,.1);
+	--input-background:		rgba(255,255,255,.05);
+	--select:				#616161;
+	--select-border:		#7f7f7f;
+	
+	// buttons
+	
+	--button:				#616161;
+	--button-color:			rgba(255,255,255,.85);
+	--button-border:		#7f7f7f;
+	
+	// note
+	
+	--code:					rgba(0,0,0,.25);
+	--code-color:			#ffffff;
+	--hr:					rgba(255,255,255,.125);
+	--mark:					#ffffff;
+	--table-border:			#484848;
+	--table-head:			#484848;
+	--table-stripe:			rgba(255,255,255,.03);
+}

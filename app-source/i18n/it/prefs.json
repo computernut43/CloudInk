@@ -1,0 +1,28 @@
+{
+  "head": {
+    "title": "Preferenze"
+  },
+  "body": {
+    "option": {
+      "date": "Data",
+      "title": "Titolo",
+      "desc": "Discendente",
+      "asc": "Ascendente",
+      "os": "Predefinito",
+      "light": "chiaro",
+      "dark": "scuro"
+    },
+    "label": {
+      "sort": "Ordina per",
+      "order": "In ordine",
+      "zoom": "Dimensione testo predefinita",
+      "cursor": "Posizione cursore",
+      "start": "inizio",
+      "end": "fine",
+      "search": "Cerca",
+      "stopwords": "Ignora i termini comuni: una, il, questo ecc.",
+      "stemming": "Trova termini simili, es: cerca = cercare = cercata",
+      "theme": "Tema"
+    }
+  }
+}

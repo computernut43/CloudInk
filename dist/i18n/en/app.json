@@ -1,0 +1,96 @@
+{
+  "titlebar": {
+    "update": "Update Available"
+  },
+  "toolbar": {
+    "new": "New Note (Cmd-N)",
+    "delete": "Delete Selected Note (Cmd-D)",
+    "heading": "Heading",
+    "bold": "Bold",
+    "italic": "Italic",
+    "strikethrough": "Strikethrough",
+    "ul": "Generic List",
+    "ol": "Numbered List",
+    "checklist": "Checkbox list (Shift-Cmd-Alt-L)",
+    "link": "Create Link  (Cmd-K)",
+    "image": "Insert Image",
+    "code": "Code",
+    "quote": "Quote",
+    "table": "Insert Table",
+    "hr": "Insert Horizontal Line"
+  },
+  "dialog": {
+    "error": {
+      "server": {
+        "title": "Server error",
+        "text": "there was an error retrieving"
+      },
+      "json": {
+        "title": "JSON parsing error",
+        "text": "An error occured parsing the notes"
+      },
+      "message": {
+        "400": "Bad Request",
+        "401": "Unauthorized",
+        "403": "Forbidden",
+        "404": "Not Found",
+        "500": "Internal Server Error",
+        "501": "Not Implemented",
+        "502": "Bad Gateway",
+        "503": "Service Unavailable",
+        "504": "Gateway Timeout",
+        "default": "Unspecified"
+      }
+    },
+    "message": {
+      "import": "You can import the following file formats: .md, .txt"
+    },
+    "button": {
+      "import": "Import File",
+      "export": "Export Note",
+      "savechanges": "Save changes",
+      "cancel": "Cancel",
+      "delete": "Delete Note"
+    },
+    "format": {
+      "html": "html",
+      "md": "markdown",
+      "txt": "text"
+    },
+    "save": {
+      "title": "You have made changes to this note",
+      "text": "Do you want to save them?"
+    },
+    "delete": {
+      "title": "Are you sure you want to delete this note?",
+      "text": "This operation is not reversable."
+    }
+  },
+  "sidebar": {
+    "notext": "No additional text",
+    "new": "New note",
+    "search": "Search"
+  },
+  "categories": {
+    "title": "Categories",
+    "all": "All notes",
+    "fav": "Favorites",
+    "none": "Uncategorised"
+  },
+  "notification": {
+    "import": {
+      "text": "The file {{filename}} has been imported"
+    },
+    "export": {
+      "text": "The note {{title}} has been exported as {{filetype}}"
+    }
+  },
+  "main": {
+    "title": "title",
+    "description": "description",
+    "button": {
+      "edit": "Edit Note",
+      "save": "Save Note"
+    }
+  }
+}

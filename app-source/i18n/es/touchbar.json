@@ -1,0 +1,36 @@
+{
+  "preview": {
+    "new": "Nuevo",
+    "edit": "Editar",
+    "favorite": "Favorito",
+    "delete": "Eliminar",
+    "export": "Exportar",
+    "print": "Impresión",
+    "search": "Buscar",
+    "categories": "Categorías",
+    "prefercences": "Preferencias"
+  },
+  "format": {
+    "heading": "Título",
+    "bold": "Negrita",
+    "italic": "Cursiva",
+    "ul": "Lista",
+    "check": "Casillas de verificación",
+    "link": "Enlace",
+    "image": "Imagen",
+    "code": "Código",
+    "table": "Tabla"
+  },
+  "edit": {
+    "preview": "Avance",
+    "save": "Salvar"
+  },
+  "prefs": {
+    "textsize": "Texto",
+    "theme": "Tema",
+    "os": "SO",
+    "light": "claro",
+    "dark": "oscuro",
+    "close": "Cerrar"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "preview": {
+    "new": "Neu",
+    "edit": "Bearbeiten",
+    "favorite": "Favorit",
+    "delete": "Löschen",
+    "export": "Export",
+    "print": "Drucken",
+    "search": "Suche",
+    "categories": "Kategorien",
+    "prefercences": "Einstellungen"
+  },
+  "format": {
+    "heading": "Überschrift",
+    "bold": "Fett",
+    "italic": "Kursiv",
+    "ul": "Liste",
+    "check": "Kontrollkästchen Liste",
+    "link": "Erstellen",
+    "image": "Bild",
+    "code": "Code",
+    "table": "Tabelle"
+  },
+  "edit": {
+    "preview": "Vorschau",
+    "save": "Speichern"
+  },
+  "prefs": {
+    "textsize": "Textgröße",
+    "theme": "Thema",
+    "os": "OS",
+    "light": "hell",
+    "dark": "dunkel",
+    "close": "Schließen"
+  }
+}

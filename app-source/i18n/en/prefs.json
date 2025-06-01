@@ -1,0 +1,28 @@
+{
+  "head": {
+    "title": "Preferences"
+  },
+  "body": {
+    "option": {
+      "date": "Date",
+      "title": "Title",
+      "desc": "Descending",
+      "asc": "Ascending",
+      "os": "OS default",
+      "light": "light",
+      "dark": "dark"
+    },
+    "label": {
+      "sort": "Sort notes by",
+      "order": "Order notes by",
+      "zoom": "Default text size",
+      "cursor": "Cursor position",
+      "start": "start",
+      "end": "end",
+      "search": "Search",
+      "stopwords": "Ignore common terms: a, the, and etc.",
+      "stemming": "Find similar terms, eg: searching = searched = search",
+      "theme": "Theme"
+    }
+  }
+}

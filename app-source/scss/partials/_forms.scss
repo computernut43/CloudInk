@@ -1,0 +1,263 @@
+
+//note(dgmid): common / light theme
+
+header {
+	
+	padding: 10px 40px;
+	background-color: var(--accent);
+	color: #fff;
+	font-size: 13px;
+	line-height: 18px;
+	text-align: center;
+	
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.scroll {
+	
+	padding: 20px 40px 0;
+	position: fixed;
+	top: 38px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow-y: scroll;
+	
+	.columns {
+		
+		display: flex;
+		
+		>div {
+			
+			width: 50%;
+		}
+	}
+}
+
+form {
+	
+	ul {
+		
+		list-style-type: none;
+		
+		li {
+			
+			padding-bottom: 10px;
+			
+			label:not(.cert-warning) {
+				
+				display: block;
+				float: left;
+				width: 100px;
+				text-align: right;
+				padding-right: 10px;
+				font-size: 13px;
+				line-height: 28px;
+				color: var(--text);
+				
+				&::after {
+					
+					content: ':';
+				}
+				
+				&[for="nocertificate"]::after {
+					
+					display: none;
+				}
+				
+				svg {
+					
+					fill: var(--code-yellow-lt);
+					margin-bottom: 2px;
+				}
+			}
+			
+			input[type="url"],
+			input[type="text"],
+			input[type="number"] {
+				
+				display: block;
+				padding-left: 10px;
+				padding-right: 28px;
+				width: calc(100% - 100px);
+				height: 28px;
+				color: var(--input-color);
+				background-color: var(--input-background);
+				border: 1px solid var(--input-border);
+				background-position: right 6px top 6px;
+				background-repeat: no-repeat;
+				
+				transition: background-color .15s;
+				
+				&:focus {
+					
+					outline: 2px solid var(--accent);
+					box-shadow: 0 0 3px 2px var(--accent-light);
+				}
+				
+				&[required] {
+				
+					&:invalid:not(:placeholder-shown) {
+						
+						background-image: var(--error);
+					}
+					
+					&:valid {
+						
+						background-image: var(--check);
+					}
+				}
+			}
+			
+			input[type="number"] {
+				
+				padding-right: 5px;
+				position: relative;
+				overflow: visible !important;
+				position: relative;
+				
+				&::-webkit-outer-spin-button, 
+				&::-webkit-inner-spin-button {
+					overflow: visible !important;
+					-webkit-appearance: none;
+					width: 9px;
+					opacity: 1;
+					
+					position: absolute;
+					top: 3px;
+					bottom: 3px;
+					right: 6px;
+				}
+				
+				
+				&::-webkit-inner-spin-button {
+					
+					border-radius: 4px;
+					background-color: var(--input-background);
+					background-image: var(--spin-button);
+					background-position: center center;
+					background-repeat: no-repeat;
+					border: 1px solid var(--input-border);
+				}
+			}
+			
+			input[type="checkbox"] {
+				
+				appearance: none;
+				
+				& + svg {
+					
+					.checkbox-back { fill: #fff; }
+					.border-light { fill: var(--accent-dark); }
+					.border-dark { fill: transparent; }
+					.check { opacity: 0; }
+				}
+				
+				&:checked + svg {
+					
+					.checkbox-back { fill: var(--accent-light); }
+					.border-light { fill: var(--accent-dark); }
+					.check { opacity: 1; }
+				}
+				
+				&:focus + svg {
+					
+					border-radius: 3px;
+					box-shadow: 0 0 3px 2px var(--accent-light);
+				}
+			}
+			
+			.cert-warning {
+				
+				display: inline-block;
+				font-size: 10px;
+				opacity: .5;
+				color: var(--text);
+			}
+		}
+	}
+}
+
+footer {
+	
+	text-align: right;
+	padding: 15px 0 0;
+}
+
+
+//note(dgmid): dark theme
+
+[data-theme="dark"] {
+	
+	canvas { filter: invert(100%); }
+	
+	form {
+		
+		ul {
+			
+			li {
+				
+				input[type="url"],
+				input[type="text"],
+				input[type="number"] {
+					
+					border-top: 0;
+					border-left: 0;
+					border-right: 0;
+					
+					box-shadow:
+						inset 0 0 1px rgba(255,255,255,.5),
+						inset 0 6px 4px -4px rgba(0,0,0,.2);
+				}
+				
+				input[type="number"] {
+					
+					&::-webkit-inner-spin-button {
+						
+						border-left: 0;
+						border-right: 0;
+						border-bottom: 0;
+						width: 11px;
+					}
+				}
+				
+				input[type="checkbox"] {
+					
+					appearance: none;
+					
+					& + svg {
+						
+						.checkbox-back { fill: url(#dark-back); }
+						.border-light { fill: transparent; }
+						.border-dark { fill: rgba(255,255,255,.3); }
+					}
+					
+					&:checked + svg {
+						
+						.checkbox-back { fill: var(--accent); }
+						.border-light { fill: transparent; }
+					}
+				}
+			}
+		}
+	}
+}
+
+//note(dgmid): user themes
+
+[data-user="light"] {
+	
+	body { background-color: #F0F0F0; }
+}
+
+[data-user="dark"] {
+	
+	body { background-color: #383838; }
+}
